@@ -1,0 +1,94 @@
+main {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 64px;
+    }
+
+    .abs {
+        width: 635px;
+        height: 48px;
+        margin-top: 8px;
+    }
+
+    .abc {
+        width: 635px;
+        height: 96px;
+        margin-top: 8px;
+    }
+
+    .name {
+        color: #33323D;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .email {
+        color: #33323D;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+
+    }
+
+    .b {
+        margin-top: 24px;
+    }
+
+    .massage {
+        color: #33323D;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .c {
+        margin-top: 24px;
+    }
+
+    .contact {
+        display: flex;
+        max-width: 1110px;
+        margin-top: 48px;
+        justify-content: space-between;
+    }
+
+    .btn4 {
+        width: 200px;
+        height: 48px;
+        background: #203A4C;
+         width: 152px;
+        color: #FFF;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border: none;
+        margin-top: 24px;
+    }
+
+    .btn4:hover{
+        background: #5FB4A2;
+        transition-duration: 0.7s;
+    }
+
+
+
+}

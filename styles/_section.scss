@@ -1,0 +1,72 @@
+section {
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 64px;
+    }
+
+
+
+    .background__img {
+        background-image: url(../images/Bitmap1.jpg);
+        max-width: 1218px;
+        height: 795px;
+        background-repeat: no-repeat;
+        padding: 80px;
+        margin-left: 70px;
+    }
+
+    .porto {
+        background-image: url(../images/Porto\ 1.jpg);
+        max-width: 659px;
+        height: 371px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 180px;
+    }
+
+    .background {
+        width: 445px;
+        height: 357px;
+        background: #FAFAFA;
+        margin-top: -15.50rem;
+        margin-left: -5em;
+    }
+
+
+    .title2 {
+        width: 390px;
+        color: #33323D;
+        font-family: 'Ibarra Real Nova',serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    
+    }
+
+    .btn {
+        width: 200px;
+        height: 48px;
+        background: #203A4C;
+        width: 152px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border: none;
+    }
+
+    .btn:hover{
+        background: #5FB4A2;
+        transition-duration: 0.5s;
+       
+    }
+
+    
+}

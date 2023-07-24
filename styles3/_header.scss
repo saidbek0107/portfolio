@@ -1,0 +1,30 @@
+header {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 64px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 1111px;
+    }
+
+    // .nav__list {}
+
+    // .nav__list__link {}
+
+    .nav__list__link:hover {
+        color: #5FB4A2;
+        transition-duration: 0.5s;
+
+    }
+}

@@ -1,0 +1,286 @@
+header * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1111px;
+}
+header .nav__list {
+  color: #33323D;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+header .nav__list__link {
+  font-family: "Public Sans", sans-serif;
+  text-decoration: none;
+  color: #33323D;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+header .nav__list__link:hover {
+  color: #5FB4A2;
+  transition-duration: 0.5s;
+}
+
+section .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px;
+}
+section .background__img {
+  background-image: url(../images/Bitmap1.jpg);
+  max-width: 1218px;
+  height: 795px;
+  background-repeat: no-repeat;
+  padding: 80px;
+  margin-left: 70px;
+}
+section .porto {
+  background-image: url(../images/Porto\ 1.jpg);
+  max-width: 659px;
+  height: 371px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 180px;
+}
+section .background {
+  width: 445px;
+  height: 357px;
+  background: #FAFAFA;
+  margin-top: -15.5rem;
+  margin-left: -5em;
+}
+section .title2 {
+  width: 390px;
+  color: #33323D;
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+section .btn {
+  width: 200px;
+  height: 48px;
+  background: #203A4C;
+  width: 152px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+}
+section .btn:hover {
+  background: #5FB4A2;
+  transition-duration: 0.5s;
+}
+
+main * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px;
+}
+main .foto {
+  width: 540px;
+  height: 600px;
+}
+main .line {
+  width: 350px;
+  height: 1px;
+  opacity: 0.150000006;
+  background: #33323D;
+}
+main .main__title {
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+  margin-top: 50px;
+}
+main .main__text {
+  width: 350px;
+  color: #33323D;
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 28px;
+}
+main .btn2 {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323D;
+  color: #33323D;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-top: 24px;
+}
+main .btn2:hover {
+  background: #33323D;
+  color: #fff;
+  transition-duration: 0.9s;
+}
+main .line2 {
+  width: 350px;
+  height: 1px;
+  opacity: 0.150000006;
+  background: #33323D;
+  margin-top: 73px;
+}
+main .portfolio {
+  display: flex;
+  margin-top: -20rem;
+}
+main .aboutme {
+  margin-left: 180px;
+}
+
+main-wrapper * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main-wrapper .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px;
+}
+main-wrapper .title {
+  width: 350px;
+  color: #33323D;
+  font-family: Ibarra Real Nova;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+main-wrapper .line3 {
+  width: 350px;
+  height: 1px;
+  opacity: 0.150000006;
+  background: #33323D;
+  margin-top: 48px;
+}
+main-wrapper .btn3 {
+  width: 162px;
+  height: 48px;
+  flex-shrink: 0;
+  border: 1px solid #33323D;
+  color: #33323D;
+  font-family: "Public Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  background: #fff;
+  margin-top: 18px;
+}
+main-wrapper .btn3:hover {
+  background: #33323D;
+  color: #fff;
+  transition-duration: 0.9s;
+}
+main-wrapper .together {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav .container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px;
+}
+nav .end {
+  width: 1111px;
+  height: 80px;
+  background: #33323D;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav .website {
+  width: 104px;
+  height: 24px;
+  margin-top: 28px;
+}
+nav .logo {
+  width: 61px;
+  height: 32px;
+  margin-top: 24px;
+}
+nav .nav__list2 {
+  color: #33323D;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+nav .nav__list__link2 {
+  font-family: "Public Sans", sans-serif;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+nav .nav__list__link2:hover {
+  color: #5FB4A2;
+  transition-duration: 0.5s;
+}/*# sourceMappingURL=style.css.map */

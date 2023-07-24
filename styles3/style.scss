@@ -1,0 +1,105 @@
+@import './header';
+@import './section';
+@import './main';
+@import './nav';
+
+
+
+
+@mixin nav__list {
+    color: #33323D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav__list {
+    @include nav__list()
+}
+
+// ==============================================
+
+@mixin nav__list__link {
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+    color: #33323D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+
+.nav__list__link {
+    @include nav__list__link()
+}
+
+// =====================================================
+
+
+@mixin line {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.15000000596046448;
+    background: #33323D;
+}
+
+.line {
+    @include line()
+}
+
+
+@mixin line {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.15000000596046448;
+    background: #33323D;
+}
+
+.line {
+    @include line()
+}
+
+// ==========================================
+
+@mixin title {
+    max-width: 350px;
+    color: #33323D;
+    font-family: Ibarra Real Nova;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.title {
+    @include title()
+}
+
+// ==========================
+
+
+@mixin text {
+     width: 600px;
+    color: #454451;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.text{
+    @include text()
+}
